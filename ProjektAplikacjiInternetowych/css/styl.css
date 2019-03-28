@@ -1,0 +1,78 @@
+*{
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 0 auto;
+}
+
+table, td, th{
+    margin-top:50px;
+    border: 1px solid #ddd;
+}
+
+td, th {
+    padding: 13px;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.icon{
+    color:#000;
+    font-size:1.5em;
+}
+
+button {
+    padding: 8px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+    transition: 0.15s;
+}
+
+label {
+    width: 76px;
+    display: inline-block;
+}
+
+input[type=text] {
+    border: 1px solid #a8aaad;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.button-delete {
+    background-color: #f44336;
+}
+
+.button-delete:hover {
+    background-color: #a3342c;
+}
+
+.button-save {
+    background-color: #35b274;
+    margin-top: 7px;
+}
+
+.button-save:hover {
+    background-color: #257a50
+}
+
+.button-update {
+    background-color: #4286f4;
+    margin-top: 7px;
+}
+
+.button-update:hover {
+    background-color: #3063b5
+}
