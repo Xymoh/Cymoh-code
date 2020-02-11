@@ -1,4 +1,4 @@
-# Cymoh-code
+# phpMyAdmin user-friendly DataBase
 A simple PHP based app to edit in a friendly-user way the SQL users.
 
 First we need to insert the .sql extension file into phpMyAdmin.
